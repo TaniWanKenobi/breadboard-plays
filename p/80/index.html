@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>rain detector — Breadboard</title>
+<meta name="description" content="i have a simple project which detects rain and trigger a buzzer and at the same time a servo motor rotate 90 degree and save your cloths
+'What It Does'
+
+This project continuously monitors a water level sensor to detect raindrops. When rain is detected, the Arduino immediately triggers an active buzzer to provide an audible alert and rotates a servo motor to 90°. Once the sensor is dry again, the buzzer turns off and the servo returns to its original 0° position.
+
+This project demonstrates basic sensor monitoring, servo motor control, and event-based automation using an Arduino.
+
+## How to Use It
+
+1. Assemble the circuit according to the wiring diagram.
+2. Connect the Arduino to your computer using a USB cable.
+3. Open the project in the Arduino IDE.
+4. Select the correct **Board** and **COM Port**.
+5. Upload the code to the Arduino.
+6. Place the water level sensor where it can detect raindrops.
+7. Power the Arduino.
+8. When rain falls on the sensor:
+   - The buzzer will sound.
+   - The servo motor will rotate to **90°**.
+9. Once the sensor dries:
+   - The buzzer will stop.
+   - The servo will return to **0°**.
+10. If needed, adjust the sensor threshold in the code to change the detection sensitivity.
+
+## Bill of Materials 
+
+| Component | Quantity | Purpose |
+|-----------|:--------:|---------|
+| Arduino Uno (or Nano) | 1 | Main microcontroller |
+| Water Level Sensor Module | 1 | Detects rain/water |
+| SG90 Micro Servo Motor | 1 | Rotates 90° when rain is detected |
+| Active Buzzer (5V) | 1 | Provides an audible alert |
+| Jumper Wires | 1 Set | Electrical connections |
+| Breadboard (Optional) | 1 | Prototyping the circuit |
+| USB Cable | 1 | Programming and powering the Arduino |
+| 5V Power Supply (Optional) | 1 | Recommended for powering the servo separately |" />
+<meta property="og:title" content="rain detector" />
+<meta property="og:description" content="i have a simple project which detects rain and trigger a buzzer and at the same time a servo motor rotate 90 degree and save your cloths
+'What It Does'
+
+This project continuously monitors a water level sensor to detect raindrops. When rain is detected, the Arduino immediately triggers an active buzzer to provide an audible alert and rotates a servo motor to 90°. Once the sensor is dry again, the buzzer turns off and the servo returns to its original 0° position.
+
+This project demonstrates basic sensor monitoring, servo motor control, and event-based automation using an Arduino.
+
+## How to Use It
+
+1. Assemble the circuit according to the wiring diagram.
+2. Connect the Arduino to your computer using a USB cable.
+3. Open the project in the Arduino IDE.
+4. Select the correct **Board** and **COM Port**.
+5. Upload the code to the Arduino.
+6. Place the water level sensor where it can detect raindrops.
+7. Power the Arduino.
+8. When rain falls on the sensor:
+   - The buzzer will sound.
+   - The servo motor will rotate to **90°**.
+9. Once the sensor dries:
+   - The buzzer will stop.
+   - The servo will return to **0°**.
+10. If needed, adjust the sensor threshold in the code to change the detection sensitivity.
+
+## Bill of Materials 
+
+| Component | Quantity | Purpose |
+|-----------|:--------:|---------|
+| Arduino Uno (or Nano) | 1 | Main microcontroller |
+| Water Level Sensor Module | 1 | Detects rain/water |
+| SG90 Micro Servo Motor | 1 | Rotates 90° when rain is detected |
+| Active Buzzer (5V) | 1 | Provides an audible alert |
+| Jumper Wires | 1 Set | Electrical connections |
+| Breadboard (Optional) | 1 | Prototyping the circuit |
+| USB Cable | 1 | Programming and powering the Arduino |
+| 5V Power Supply (Optional) | 1 | Recommended for powering the servo separately |" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TaniWanKenobi/breadboard-play@v6/player.css" />
+<style>
+  /* The bundled viewer sizes itself to its parent; the /share page relies on
+     Tailwind's h-full for that, which this standalone bundle does not ship, so
+     size the container explicitly with flexbox instead. */
+  html, body { height: 100%; margin: 0; }
+  body { display: flex; flex-direction: column; background: #1e1e1e; color: #fff; font-family: system-ui, sans-serif; }
+  #banner { flex: 0 0 auto; display: flex; flex-direction: column; gap: 2px; padding: 10px 16px; background: #111; border-bottom: 1px solid #333; }
+  #banner .tag { font-size: 11px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; color: #ff6b86; }
+  #banner h1 { font-size: 17px; font-weight: 800; margin: 0; }
+  #stage { flex: 1 1 auto; min-height: 0; }
+  #root { height: 100%; }
+  #root > * { height: 100%; }
+</style>
+</head>
+<body>
+<div id="banner">
+  <span class="tag">Read Only Demo</span>
+  <h1>rain detector</h1>
+</div>
+<div id="stage"><div id="root"></div></div>
+<script>window.__VELXIO_ASSET_BASE__ = "https://cdn.jsdelivr.net/gh/TaniWanKenobi/breadboard-play@v6";window.__VELXIO_WASM_BASE__ = "https://raw.githubusercontent.com/TaniWanKenobi/breadboard-play/v6";</script>
+<script>window.__VELXIO_SNAPSHOT_URL__ = "./snapshot.json";</script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/TaniWanKenobi/breadboard-play@v6/player.js"></script>
+</body>
+</html>
