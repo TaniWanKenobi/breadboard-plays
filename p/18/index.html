@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Tutorial — Breadboard</title>
+<meta name="description" content="An Arduino alarm that trips when a vibration switch detects movement, lighting an LED. The LED stays on until you press a button to reset it." />
+<meta property="og:title" content="Tutorial" />
+<meta property="og:description" content="An Arduino alarm that trips when a vibration switch detects movement, lighting an LED. The LED stays on until you press a button to reset it." />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/TaniWanKenobi/breadboard-play@v4/player.css" />
+<style>
+  /* The bundled viewer sizes itself to its parent; the /share page relies on
+     Tailwind's h-full for that, which this standalone bundle does not ship, so
+     size the container explicitly with flexbox instead. */
+  html, body { height: 100%; margin: 0; }
+  body { display: flex; flex-direction: column; background: #1e1e1e; color: #fff; font-family: system-ui, sans-serif; }
+  #banner { flex: 0 0 auto; display: flex; flex-direction: column; gap: 2px; padding: 10px 16px; background: #111; border-bottom: 1px solid #333; }
+  #banner .tag { font-size: 11px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; color: #ff6b86; }
+  #banner h1 { font-size: 17px; font-weight: 800; margin: 0; }
+  #stage { flex: 1 1 auto; min-height: 0; }
+  #root { height: 100%; }
+  #root > * { height: 100%; }
+</style>
+</head>
+<body>
+<div id="banner">
+  <span class="tag">Read Only Demo</span>
+  <h1>Tutorial</h1>
+</div>
+<div id="stage"><div id="root"></div></div>
+<script>window.__VELXIO_ASSET_BASE__ = "https://cdn.jsdelivr.net/gh/TaniWanKenobi/breadboard-play@v4";window.__VELXIO_WASM_BASE__ = "https://raw.githubusercontent.com/TaniWanKenobi/breadboard-play/v4";</script>
+<script>window.__VELXIO_SNAPSHOT_URL__ = "./snapshot.json";</script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/TaniWanKenobi/breadboard-play@v4/player.js"></script>
+</body>
+</html>
